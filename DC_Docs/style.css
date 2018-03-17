@@ -7,19 +7,31 @@ html, body {
 .container {
     height: 100%;
     width: 100%;
+    position: absolute;
 }
-.sidenav, .main {
+.sidenav{
     float:left;
     position: relative;
 }
 .main{
+    max-width: 1024px;
+    float: right;
+    width: 80%;
     margin-left: 40px;
+    margin-top: 30px;
+    min-width: 600px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+
 }
 .sidenav {
     background: #57585b;
     height: 100%;
-    width: 10%;
+    width: 12%;
+    min-width: 200px;
     color: white;
+    font-weight: bold;
 }
 .sidenav-top {
     display: block;
@@ -27,7 +39,7 @@ html, body {
     padding-bottom: 50px;
 }
 .sidenav-top input {
-    width: 90%;
+    width: 85%;
     background: #57585b;
     color: lightgray;
 }
@@ -51,4 +63,49 @@ html, body {
     right: 0;
     font-size: 10px;
     color: lightgray;
+}
+.main-title{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.close {
+    line-height: .1;
+    color: gray;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.comment {
+    max-width: 1024px;
+    margin-top:  50px;
+    background-color: #e5e0d7;
+    border-left: 5px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    height: 250px
+    padding-right: 10%;
+    padding-left: 10%;
+    color: gray;
+    margin-right: 40px;
+
+
+
+}
+.comment span{
+    margin: 0 auto;
+     text-align: center;
+}
+.quote {
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+.sig {
+    text-align: right;
+    padding-right: 25%;
+    padding-left: 25%;
 }
