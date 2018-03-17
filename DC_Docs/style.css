@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+.sidenav, .main {
+    float:left;
+}
+.sidenav {
+    background: #57585b;
+    height: 100%;
+    width: 12%;
+    text-align: center;
+}
