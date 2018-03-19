@@ -40,7 +40,7 @@ html, body {
     word-spacing: 3em;
 }
 .topimg {
-    height: 50%;
+    height: 673px;
     width: 1080px;
     background-image: url("img/atl.png");
     background-size: cover;
@@ -93,7 +93,7 @@ html, body {
     word-spacing: 5em;
     color: white;
     margin-top: 110px;
-    height: 7%;
+    height: 90px;
     background-color: #5f6266;
     text-align: center;
 }
