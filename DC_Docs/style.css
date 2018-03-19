@@ -1,8 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: Helvetica;
-    font-weight: lighter; 
+    font-family: Helvetica; 
     margin: 0;
 }
 .container {
