@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-family: Helvetica;
     font-weight: lighter; 
     margin: 0;
 }
@@ -26,7 +26,18 @@ html, body {
     position: absolute;
 
 }
+.sidenav a {
+    transition: color 0.1s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
 .sidenav {
+     -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
     background: #57585b;
     height: 100%;
     width: 12%;
